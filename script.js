@@ -8,7 +8,7 @@ const student = {
     },
     addCourse: function (newCourse) {
     this.courses.push(newCourse);
-    console.log('${newCourse} has been added.');
+    console.log(`${newCourse} has been added.`);
     },
     totalCourses: function() {
         return this.courses.length;
@@ -50,3 +50,6 @@ const moreCourses = [ "Writ", "Operating Systems", "Database" ];
 const combinedObj = [ ...student.courses, ...moreCourses ];
 console.log("Merged Courses: ", combinedObj);*/
 
+student.addCourse("Coding");
+console.log("Total Courses: ", student.totalCourses());
+console.log(student.displayInfo());
