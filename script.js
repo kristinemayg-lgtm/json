@@ -1,10 +1,13 @@
-/*const student = {
+const student = {
     name : "Kristine Garcia",
     age : 33,
     enrolled : true,
     courses : ["Javascript", "Web Designing", "Algorithms"],
     displayInfo: function() {
         return `Student: ${this.name}, Age: ${this.age}, Enrolled: ${this.enrolled}, Courses: ${this.courses.join(", ")}`;
+    },
+    addCourse: function (newCourse) {
+    this.courses.push(newCourse);
     }
 };
 console.log("Name: ", student.name);
@@ -28,9 +31,9 @@ console.log(courses);
 let numbers = [75, 89, 83, 90, 93];
 let [first, second, third, fourth, fifth] = numbers;
 console.log(first);
-console.log(second);*/
+console.log(second);
 
-const student = {
+/*const student = {
     name : "Kristine Garcia",
     age : 33,
     enrolled : true,
@@ -41,4 +44,5 @@ console.log("Cloned Student: ", copiedObj);
 
 const moreCourses = [ "Writ", "Operating Systems", "Database" ];
 const combinedObj = [ ...student.courses, ...moreCourses ];
-console.log("Merged Courses: ", combinedObj);
+console.log("Merged Courses: ", combinedObj);*/
+
