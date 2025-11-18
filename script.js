@@ -39,6 +39,7 @@ const student = {
 const copiedObj = { ...student, Graduation: 2027 };
 console.log("Cloned Student: ", copiedObj);
 
-let studentCourses = ["Javascript", "Web Designing", "Algorithms"];
-let moreCourses = ["Writ", "Operating Systems", "Database"];
-let combinedObj = { ...studentCourses, ...moreCourses};
+//let studentCourses = { "Javascript", "Web Designing", "Algorithms" };
+const moreCourses = [ "Writ", "Operating Systems", "Database" ];
+const combinedObj = [ ...student.courses, ...moreCourses ];
+console.log("Merged Courses: ", combinedObj);
