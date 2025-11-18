@@ -50,6 +50,6 @@ const moreCourses = [ "Writ", "Operating Systems", "Database" ];
 const combinedObj = [ ...student.courses, ...moreCourses ];
 console.log("Merged Courses: ", combinedObj);*/
 
-student.addCourse("Coding");
+student.addCourse("GNED");
 console.log("Total Courses: ", student.totalCourses());
 console.log(student.displayInfo());
