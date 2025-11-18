@@ -1,4 +1,4 @@
-const student = {
+/*const student = {
     name : "Kristine Garcia",
     age : 33,
     enrolled : true,
@@ -28,7 +28,7 @@ console.log(courses);
 let numbers = [75, 89, 83, 90, 93];
 let [first, second, third, fourth, fifth] = numbers;
 console.log(first);
-console.log(second);
+console.log(second);*/
 
 const student = {
     name : "Kristine Garcia",
