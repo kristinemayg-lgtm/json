@@ -8,6 +8,10 @@ const student = {
     },
     addCourse: function (newCourse) {
     this.courses.push(newCourse);
+    console.log('${newCourse} has been added.');
+    },
+    totalCourses: function() {
+        return this.courses.length;
     }
 };
 console.log("Name: ", student.name);
