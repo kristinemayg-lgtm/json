@@ -36,5 +36,5 @@ const student = {
     enrolled : true,
     courses : ["Javascript", "Web Designing", "Algorithms"]
 };
-const copiedObj = { ...student };
+const copiedObj = { ...student, Graduation: 2027 };
 console.log("Cloned Student: ", copiedObj);
