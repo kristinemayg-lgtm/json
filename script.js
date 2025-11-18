@@ -34,7 +34,7 @@ const student = {
     name : "Kristine Garcia",
     age : 33,
     enrolled : true,
-    courses : ["Javascript", "Web Designing", "Algorithms"],
+    courses : ["Javascript", "Web Designing", "Algorithms"]
 };
-const copiedObj = { ...students };
-console.log(copiedObj);
+const copiedObj = { ...student };
+console.log("Cloned Student: ", copiedObj);
